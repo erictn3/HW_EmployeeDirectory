@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import DataArea from "./DataArea";
+import DataArea from "./DataArea";
 // import "../styles/Main.css";
 
 export default class Main extends Component {
@@ -7,7 +7,7 @@ export default class Main extends Component {
     return (
       <>
       <p>test</p>
-        {/* <DataArea /> */}
+        <DataArea />
       </>
     );
   }
