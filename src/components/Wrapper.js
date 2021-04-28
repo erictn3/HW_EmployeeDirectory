@@ -1,11 +1,11 @@
 import React from 'react';
+// import "../styles/Wrapper.css";
 
 function Wrapper({ children }) {
   return (
-    <div className="wrapper">
-      <p>we want to be seen</p>
-      { children }
-    </div>
+      <div className="wrapper">
+        { children }
+      </div>
   );
 }
 

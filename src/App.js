@@ -8,7 +8,6 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <p>Testing Grounds</p>
       <Wrapper>
         <Header />
         <Main />
@@ -18,4 +17,3 @@ function App() {
 }
 
 export default App;
-
